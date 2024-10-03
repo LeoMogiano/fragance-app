@@ -13,4 +13,4 @@
 
 | **Home** |
 |:-----------------------:|
-| <img src="./Screenshots/s1.png" width="200"> |
+| <img src="./Screenshots/s1.jpeg" width="200"> |

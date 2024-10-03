@@ -89,7 +89,7 @@ struct FirstView: View {
                 Text("Popular").bold()
                 Text("Collection")
             }.cochinFont(size: 20)
-            .padding(.bottom, 20)
+            .padding(.bottom, 15)
             .frame(maxWidth: .infinity, alignment: .leading)
             
             ScrollView(.horizontal) {
@@ -117,7 +117,33 @@ struct FirstView: View {
                 }
             } .scrollClipDisabled()
             .scrollIndicators(.hidden)
-           Spacer()
+           
+            Spacer().frame(height: 24)
+            
+            HStack (spacing: 4) {
+                Text("Recommended").bold()
+                Text("Collection")
+            }.cochinFont(size: 20)
+            .padding(.bottom, 10)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            
+            VStack(spacing: 15){
+                ItemFraganceWidget(
+                    image: "Sauvage",
+                    name: "SAUVAGE",
+                    type: "Eau de Parfum",
+                    price: 100.00,
+                    volume: 50
+                )
+                ItemFraganceWidget(
+                    image: "CKEveryone",
+                    name: "CK Everyone",
+                    type: "Eau de Toilette",
+                    price: 50.00,
+                    volume: 200
+                )
+            }
+            Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding(25)
@@ -167,5 +193,4 @@ struct CustomTextField<Content: View>: View {
             }
     }
 }
-
 
