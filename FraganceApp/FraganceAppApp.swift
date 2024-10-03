@@ -11,7 +11,15 @@ import SwiftUI
 struct FraganceAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
+            
         }
+    }
+}
+
+extension View {
+    func cochinFont(size: CGFloat, color: Color = .black) -> some View {
+        self.font(.custom("Cochin", size: size))
+            .foregroundColor(color)
     }
 }

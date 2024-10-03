@@ -9,10 +9,35 @@ import SwiftUI
 
 struct CustomToolbar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Button(action: {}) {
+                Image(systemName: "line.horizontal.3")
+                    .font(.system(size: 24))
+                    .foregroundColor(.white)
+            }
+
+            Spacer()
+
+            Text("Dior")
+                .cochinFont(size: 34, color: .white)
+
+            Spacer()
+
+            Button(action: {}) {
+                Image(systemName: "bag")
+                    .font(.system(size: 24))
+                    .foregroundColor(.white)
+//                    .symbolEffect(.wiggle)
+            }
+        }
+        .padding(.vertical, 12)
+        .padding(.horizontal, 15)
+        .background(Color.black)
     }
+    
 }
 
 #Preview {
     CustomToolbar()
 }
+
