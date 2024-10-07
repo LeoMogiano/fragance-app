@@ -30,9 +30,9 @@ struct CustomToolbar: View {
 //                    .symbolEffect(.wiggle)
             }
         }
-        .padding(.vertical, 12)
+        .padding(.vertical, 10)
         .padding(.horizontal, 15)
-        .background(Color.black)
+        .background(.black)
     }
     
 }

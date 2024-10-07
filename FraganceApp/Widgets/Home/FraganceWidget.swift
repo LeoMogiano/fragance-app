@@ -59,7 +59,7 @@ struct FraganceWidget: View {
 
 #Preview {
     FraganceWidget(
-        image: "Sauvage",
+        image: "CKEveryone",
         name: "SAUVAGE",
         type: "Eau de Parfum",
         price: 100.00

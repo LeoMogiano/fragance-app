@@ -11,6 +11,6 @@
 
 ## Screenshots
 
-| **Home** |
-|:-----------------------:|
-| <img src="./Screenshots/s1.jpeg" width="200"> |
+| **Home** | **Detail Screen** | **Detail Screen 2** |
+|:-----------------------:|:-----------------------:|:-----------------------:|
+| <img src="./Screenshots/s1.png" width="200"> | <img src="./Screenshots/s2.png" width="200"> | <img src="./Screenshots/s3.jpeg" width="200"> |

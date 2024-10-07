@@ -29,6 +29,7 @@ struct ItemFraganceWidget: View {
                     .resizable()
                     .scaledToFill()
                     .frame(width: 80, height: 80)
+                    
                 
                 VStack(alignment: .leading, spacing: 2){
                     Text(name)
